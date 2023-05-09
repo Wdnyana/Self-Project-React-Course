@@ -1,0 +1,19 @@
+// Import Google Fonts Montserrat and Raleway
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400&family=Raleway:wght@700&display=swap");
+
+// Font family
+$font-family-sans-serif: "Montserrat", sans-serif;
+$font-family-heading: "Raleway", sans-serif;
+
+// Font size
+$font-size-text: 16px;
+$font-size-heading-md: $font-size-text * 1.25; // 20px
+$font-size-heading-lg: $font-size-text * 2;
+
+// Line height
+$line-height-base: 1.5;
+
+// Font weight
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-bold: 700;

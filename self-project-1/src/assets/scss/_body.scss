@@ -1,0 +1,13 @@
+@use "./typography";
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  line-height: typography.$line-height-base;
+}

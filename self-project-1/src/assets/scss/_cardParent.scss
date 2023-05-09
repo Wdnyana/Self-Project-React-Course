@@ -1,0 +1,22 @@
+@use "./variables";
+@use "./typography";
+
+.card__parent {
+  background-color: variables.$bg-color;
+  width: 1253px;
+  padding: 1.5rem;
+
+  &__title {
+    text-align: center;
+    color: variables.$color-heading-desc;
+    font-size: typography.$font-size-heading-lg;
+    font-weight: typography.$font-weight-bold;
+    font-family: typography.$font-family-heading;
+  }
+
+  &__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

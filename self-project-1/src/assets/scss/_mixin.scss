@@ -1,0 +1,15 @@
+@use "./typography";
+@use "./variables";
+
+@mixin text {
+  font-size: typography.$font-size-text;
+  font-family: typography.$font-family-sans-serif;
+  font-weight: typography.$font-weight-normal;
+}
+
+@mixin text-bottom {
+  font-size: typography.$font-size-text;
+  font-family: typography.$font-family-sans-serif;
+  font-weight: typography.$font-weight-normal;
+  color: variables.$color-sub-text;
+}

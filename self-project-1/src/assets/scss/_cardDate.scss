@@ -1,0 +1,11 @@
+.card__date {
+  display: flex;
+
+  &__day {
+    margin-right: 0.35rem;
+  }
+
+  &__month {
+    margin-right: 0.35rem;
+  }
+}
